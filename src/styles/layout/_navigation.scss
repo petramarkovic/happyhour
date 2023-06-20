@@ -1,0 +1,124 @@
+// .nav {
+// 	width: 100%;
+// }
+
+.nav--active {
+	.menu-close {
+		opacity: 1;
+		visibility: visible;
+	}
+	.nav__backdrop {
+		opacity: 0.3;
+	}
+	.nav__list {
+		transform: translateX(0);
+	}
+}
+
+.nav__list {
+	@include flex-row-sb;
+	@include animation {
+		transition: $transition-medium;
+	}
+	@media screen and (max-width: $sm) {
+		position: fixed;
+		top: 0;
+		right: 0;
+		height: 100vh;
+		width: 45vw;
+		@include flex-col-start;
+		background-color: $primary-dark;
+		padding: 10vw;
+		overflow-y: auto;
+		transform: translateX(100%);
+		overflow-x: hidden;
+	}
+}
+
+.nav__item {
+	&:not(:last-of-type) {
+		margin-right: 25px;
+	}
+	@media screen and (max-width: $sm) {
+		margin: 0 0 30px;
+	}
+}
+
+.nav__link {
+	color: $secondary;
+	position: relative;
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 0;
+		height: 1px;
+		background-color: $ternary;
+		@include animation {
+			transition: $transition-medium;
+		}
+	}
+	@include animation {
+		transition: $transition-medium;
+	}
+	@include hover {
+		color: $ternary;
+		&::after {
+			width: 100%;
+		}
+	}
+}
+
+.nav__backdrop {
+	display: none;
+	@include animation {
+		transition: $transition-medium;
+	}
+	@media screen and (max-width: $sm) {
+		display: block;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 55vw;
+		height: 100vh;
+		background-color: $black;
+		opacity: 0;
+	}
+}
+
+.nav__btn {
+	background: transparent;
+	border: none;
+}
+
+.menu {
+	display: none;
+	color: $secondary;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	@media screen and (max-width: $sm) {
+		display: block;
+	}
+}
+
+.menu-close {
+	display: none;
+	color: $secondary;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	position: fixed;
+	top: 35px;
+	right: 20px;
+	z-index: 2;
+	@include animation {
+		transition: $transition-fast;
+	}
+	@media screen and (max-width: $sm) {
+		display: block;
+		opacity: 0;
+		visibility: hidden;
+	}
+}

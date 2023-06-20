@@ -1,0 +1,15 @@
+.header {
+	width: 100%;
+	padding: 30px 0;
+}
+
+.header__content {
+	@include flex-row-sb;
+}
+
+.header__logo {
+	width: 100px;
+	@media screen and (max-width: $sm) {
+		width: 60px;
+	}
+}
