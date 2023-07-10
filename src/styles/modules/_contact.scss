@@ -1,0 +1,79 @@
+.contact {
+	width: 100%;
+	padding: 100px 0;
+	@media screen and (max-width: $sm) {
+		padding: 50px 0;
+	}
+}
+
+.contact__title {
+	text-align: center;
+}
+
+.contact__text {
+	max-width: 650px;
+	margin: 50px auto;
+	text-align: center;
+	line-height: 30px;
+	@media screen and (max-width: $sm) {
+		font-size: 16px;
+		max-width: 100%;
+	}
+}
+
+.contact__link {
+	color: $ternary;
+	font-weight: $bold;
+	margin: 0 8px;
+	position: relative;
+	display: inline-block;
+	&::after {
+		background-color: $ternary;
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 0;
+		height: 1px;
+		@include animation {
+			transition: $transition-medium;
+		}
+	}
+	@include animation {
+		transition: $transition-medium;
+	}
+	@include hover {
+		color: $ternary;
+		&::after {
+			width: 100%;
+		}
+	}
+	@media screen and (max-width: $sm) {
+		margin: 0 5px;
+	}
+}
+
+.contact__icon {
+	vertical-align: middle;
+}
+
+.contact__list {
+	@include flex-container(row, center, center, nowrap);
+}
+
+.contact__item {
+	.contact__link {
+		@include flex-container(row, center, center, nowrap);
+		font-size: 50px;
+		cursor: pointer;
+		&::after {
+			display: none;
+		}
+		@include hover {
+			color: $secondary;
+		}
+		@include animation {
+			transition: $transition-medium;
+		}
+	}
+}

@@ -23,14 +23,19 @@
 	}
 }
 
-@mixin flex-row-sb {
+@mixin flex-container($flex-direction, $justify-content, $align-items, $flex-wrap) {
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	flex-direction: $flex-direction;
+	justify-content: $justify-content;
+	align-items: $align-items;
+	flex-wrap: $flex-wrap;
 }
 
-@mixin flex-col-start {
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: center;
+@mixin flex-child ($width) {
+	flex: 1 1 $width;
+	max-width: $width;
+}
+
+.sr-only {
+	@include visually-hidden;
 }

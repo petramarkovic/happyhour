@@ -4,7 +4,7 @@
 }
 
 .header__content {
-	@include flex-row-sb;
+	@include flex-container(row, space-between, center, nowrap);
 }
 
 .header__logo {

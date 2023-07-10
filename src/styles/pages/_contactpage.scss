@@ -1,0 +1,6 @@
+.contactpage {
+	@include flex-container(column, space-between, center, nowrap);
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+}

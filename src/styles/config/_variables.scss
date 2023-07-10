@@ -1,5 +1,5 @@
 $font-default: 'Poppins', sans-serif;
-
+$font-secondary: 'Dongle', sans-serif;
 $extra-thin: 200;
 $thin: 300;
 $regular: 400;
@@ -14,6 +14,7 @@ $black: #000;
 $grey: #211f1f;
 $green: #6BBF79;
 $red: #dc7676;
+$dark: #131f1c;
 
 $primary: #1c322c;
 $primary-light: #3f6355;
@@ -34,6 +35,7 @@ $neutral-light: #f9f7f4;
 $transition-fast: 250ms ease-in-out;
 $transition-medium: 450ms ease-in-out;
 $transition-slow: 750ms ease-in-out;
+$transition-cubic: 0.3s cubic-bezier(.165,.84,.44,1);
 
 // breakpoints
 $lg: 1200px;
@@ -44,7 +46,19 @@ $sm: 768px;
 $radius-sm: 8px;
 $radius-lg: 14px;
 $radius-xl: 34px;
+$radius-xxl: 50px;
 
 // opacity
+$opacity-xl: 0.8;
 $opacity-lg: 0.6;
 $opacity-sm: 0.4;
+
+// filter
+$filter: drop-shadow(0 10px 30px rgba($black, 0.25));
+
+// box shadow
+$box-shadow: 0 10px 30px rgba($black, 0.25);
+
+// borders
+$border-light: 1px solid rgba(#ddd6c5, 0.3);
+$border-ternary: 1px solid $ternary;

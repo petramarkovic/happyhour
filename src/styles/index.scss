@@ -11,9 +11,21 @@
 
 // layout
 @import 'layout/buttons';
-@import 'layout/forms';
 @import 'layout/navigation';
+@import 'layout/image';
+@import 'layout/tabs';
+@import 'layout/list';
 
 // modules
 @import 'modules/header';
 @import 'modules/banner';
+@import 'modules/about';
+@import 'modules/footer';
+@import 'modules/testimonials';
+@import 'modules/contact';
+@import 'modules/offers';
+
+// pages
+@import 'pages/homepage';
+@import 'pages/aboutuspage';
+@import 'pages/contactpage';

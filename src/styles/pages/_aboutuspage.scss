@@ -1,0 +1,55 @@
+.aboutuspage {
+	.about {
+		padding: 80px 0;
+	}
+	.about__col {
+		@include flex-child(100%);
+	}
+	.about__col--images {
+		display: block;
+		width: 100%;
+	}
+	.about__title {
+		text-align: center;
+	}
+	.about__text {
+		margin: 30px auto;
+		max-width: 750px;
+		text-align: center;
+	}
+	.about__img-holder {
+		max-width: 100%;
+		margin-bottom: 0;
+		padding-bottom: 50%;
+		opacity: 1;
+		@include hover {
+			transform: none;
+			z-index: unset;
+		}
+	}
+	.about__slide {
+		border-radius: $radius-sm;
+		overflow: hidden;
+	}
+	.about__content {
+		position: relative;
+	}
+	.swiper-pagination {
+		position: relative;
+		width: 100%;
+		bottom: auto;
+		top: auto;
+		left: auto;
+		padding: 30px 0;
+	}
+	.swiper-pagination-bullet {
+		border: $border-ternary;
+		background: transparent;
+		opacity: 1;
+		width: 15px;
+		height: 15px;
+	}
+	.swiper-pagination-bullet-active {
+		background: $ternary;
+	}
+}

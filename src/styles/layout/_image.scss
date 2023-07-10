@@ -1,0 +1,29 @@
+.image-wrap {
+	filter: $filter;
+	border-radius: $radius-sm;
+	opacity: $opacity-sm;
+	position: absolute;
+	max-width: 350px;
+	width: 100%;
+	overflow: hidden;
+	@include hover {
+		transform: scale(1.1);
+		opacity: 1;
+	}
+	@include animation {
+		transition-property: opacity, transform, z-index;
+		transition: $transition-medium;
+	}
+}
+
+.image {
+	position: relative;
+	padding-bottom: 56%;
+}
+
+.image__holder {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+}

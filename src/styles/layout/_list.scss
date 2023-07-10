@@ -1,0 +1,12 @@
+.list {
+	@include flex-child(100%);
+	padding-left: 30px;
+	margin-bottom: 30px;
+}
+
+.list__item {
+	color: $secondary-dimmed;
+	font-weight: $bold;
+	font-size: 15px;
+	list-style-type: disc;
+}

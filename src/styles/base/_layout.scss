@@ -11,6 +11,8 @@
 body {
 	font-family: $font-default;
 	background-color: $primary-dark;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
 .scroll-disabled {
@@ -25,4 +27,10 @@ body {
 	margin: 0 auto;
 	width: 100%;
 	padding: 0 20px;
+}
+
+.has-cover {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }

@@ -1,5 +1,9 @@
 import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Homepage from './components/pages/Homepage';
+import Offerspage from './components/pages/Offerspage';
+import Aboutpage from './components/pages/Aboutpage';
+import Contactpage from './components/pages/Contactpage';
 
 function App() {
 
@@ -21,9 +25,14 @@ function App() {
 	}, []);
 
 	return (
-		<div className="app">
-			<Homepage />
-		</div>
+		<Router>
+			<Routes>
+				<Route path="/" element={<Homepage />} />
+				<Route path="/offers" element={<Offerspage />} />
+				<Route path="/about" element={<Aboutpage />} />
+				<Route path="/contact" element={<Contactpage />} />
+			</Routes>
+		</Router>
 	);
 }
 

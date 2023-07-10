@@ -1,0 +1,84 @@
+.testimonials {
+	width: 100%;
+	padding: 100px 0;
+	@media screen and (max-width: $sm) {
+		padding: 50px 0;
+	}
+}
+
+.testimonials__title {
+	padding-bottom: 20px;
+	position: relative;
+	&::after {
+		background-color: $secondary-dimmed;
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 1px;
+		opacity: 0.3;
+	}
+}
+
+.testimonials__item {
+	@include flex-container(row, flex-start, center, nowrap);
+	border-bottom: $border-light;
+	padding: 50px 0;
+	position: relative;
+	@media screen and (max-width: $sm) {
+		padding: 30px 0;
+	}
+}
+
+.testimonials__item-icon {
+	color: $ternary;
+	font-size: 50px;
+	align-self: flex-start;
+}
+
+.testimonials__item-text {
+	padding-left: 15px;
+	display: block;
+	max-width: 800px;
+}
+
+.testimonials__text {
+	color: $secondary-dimmed;
+	font-size: 48px;
+	margin-bottom: 20px;
+	@media screen and (max-width: $sm) {
+		font-size: 24px;
+	}
+}
+
+.testimonials__person {
+	color: $ternary-light;
+	font-weight: $bold;
+}
+
+.testimonials__img-wrap {
+	filter: $filter;
+	opacity: $opacity-xl;
+	border-radius: $radius-xxl;
+	height: 100px;
+	width: 100px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: 20px;
+	position: absolute;
+	right: 20px;
+	bottom: 50px;
+	@media screen and (max-width: $sm) {
+		bottom: 30px;
+		height: 50px;
+		width: 50px;
+		right: 0;
+	}
+}
+
+.testimonials__img {
+	object-fit: cover;
+	max-width: 100%;
+	height: 100%;
+}

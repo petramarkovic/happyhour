@@ -1,0 +1,61 @@
+button,
+input[type='button'],
+input[type='submit'] {
+	background: none;
+	border: 0;
+	cursor: pointer;
+	outline: none;
+	padding: 0;
+}
+
+a, button {
+	appearance: none;
+	outline: none;
+}
+
+.btn {
+	font-family: $font-secondary;
+	font-weight: $semibold;
+	border-radius: $radius-xl;
+	font-size: 20px;
+	line-height: 20px;
+	text-transform: lowercase;
+	letter-spacing: 0.06em;
+	padding: 10px 20px 7px;
+	@include animation {
+		transition: $transition-cubic;
+	}
+}
+
+.btn--primary {
+	color: $primary;
+	background-color: $ternary;
+	border: $border-ternary;
+	@include hover {
+		background-color: $white;
+	}
+}
+
+.btn--secondary {
+	color: $ternary;
+	border: $border-ternary;
+	background: transparent;
+	@include hover {
+		background: $primary-light;
+	}
+}
+
+.btn--scroll {
+	@include flex-container(row, center, center, nowrap);
+	background-color: $primary-light;
+	color: $ternary;
+	box-shadow: $box-shadow;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	padding: 16px;
+	@include hover {
+		background-color: $ternary-light;
+		color: $primary;
+	}
+}
