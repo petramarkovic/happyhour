@@ -3,7 +3,7 @@ import Header from '../shared/Header';
 import Contact from '../shared/Contact';
 import Footer from '../shared/Footer';
 import Button from '../UI/Button';
-import Offers from '../modules/Offers';
+import Tabs from '../UI/Tabs';
 import { Icon } from '@iconify/react';
 
 export default function Offerspage() {
@@ -17,7 +17,7 @@ export default function Offerspage() {
 	return (
 		<div className='offerspage'>
 			<Header />
-			<Offers />
+			<Tabs />
 			<Contact />
 			<Footer />
 			<Button className='btn--scroll' onClickHandler={scrollToTopHandler} aria-label='Scroll to the top of the page'>

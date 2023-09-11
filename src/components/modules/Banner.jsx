@@ -11,8 +11,8 @@ export default function Banner() {
 		<div className='wrap'>
 			<div className='banner__holder'>
 				<div className='banner__content'>
-					<h1 className='h1 banner__title'>Lorem ipsum dolor sit amet consectetur, adipiscing elit parturient.</h1>
-					<p className='text banner__text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, in! Possimus molestias exercitationem voluptatibus earum?</p>
+					<h1 className='h1 banner__title'>Iskusite eksploziju ukusa s Happy Hour keteringom</h1>
+					<p className='text banner__text'>Učinite svoj događaj nezaboravnim uz Happy Hour Euforiju - naš koktel ketering će osvojiti vaša osetila i podići atmosferu na vrhunsku razinu zabave!</p>
 					<div className='banner__cta'>
 						<Link to="/offers" aria-label="Pogledaj ponude" title="Pogledaj ponude" className="btn btn--primary banner__btn">pogledaj ponude</Link>
 						<Link to="/contact" aria-label="Kontaktiraj nas" title="Kontaktiraj nas" className="btn btn--secondary banner__btn">kontaktiraj nas</Link>

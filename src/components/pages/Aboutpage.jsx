@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from '../shared/Header';
 import AboutSingle from '../modules/AboutSingle';
-import Testimonials from '../modules/Testimonials';
 import Contact from '../shared/Contact';
 import Footer from '../shared/Footer';
 import Button from '../UI/Button';
@@ -19,7 +18,6 @@ export default function Aboutpage() {
 		<div className='aboutuspage'>
 			<Header />
 			<AboutSingle />
-			<Testimonials />
 			<Contact />
 			<Footer />
 			<Button className='btn--scroll' onClickHandler={scrollToTopHandler} aria-label='Scroll to the top of the page'>

@@ -2,10 +2,9 @@ import React from 'react';
 import Header from '../shared/Header';
 import Banner from '../modules/Banner';
 import About from '../modules/About';
-import Offers from '../modules/Offers';
+import Tabs from '../UI/Tabs';
 import Contact from '../shared/Contact';
 import Footer from '../shared/Footer';
-import Testimonials from '../modules/Testimonials';
 import Button from '../UI/Button';
 import { Icon } from '@iconify/react';
 
@@ -22,8 +21,7 @@ export default function Homepage() {
 			<Header />
 			<Banner />
 			<About />
-			<Offers />
-			<Testimonials />
+			<Tabs />
 			<Contact />
 			<Footer />
 			<Button className='btn--scroll' onClickHandler={scrollToTopHandler} aria-label='Scroll to the top of the page'>

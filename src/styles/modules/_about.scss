@@ -43,7 +43,6 @@
 .about__img-holder {
 	@include flex-child(calc(50% - 15px));
 	border-radius: $radius-sm;
-	filter: $filter;
 	opacity: $opacity-sm;
 	height: 100%;
 	position: relative;

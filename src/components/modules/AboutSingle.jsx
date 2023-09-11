@@ -1,13 +1,5 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
-import { EffectFade } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/effect-fade';
-import bannerImageOne from '../../assets/images/banner-img-1.png';
-import bannerImageTwo from '../../assets/images/banner-img-2.png';
-import bannerImageThree from '../../assets/images/banner-img-3.png';
+import Slider from '../UI/Slider';
 
 export default function AboutSingle() {
   return (
@@ -16,42 +8,12 @@ export default function AboutSingle() {
 		<div className='about__content'>
 			<div className='about__col about__col--info'>
 				<h2 className='h2 about__title'>About us</h2>
-				<p className='text about__text'>Lorem ipsum dolor sit amet consectetur adipiscing elit gravida elementum dignissim urna ornare, duis libero molestie malesuada sed viverra leo tellus ac natoque. Nascetur porta egestas lacus fringilla vivamus sociis nostra velit nam auctor mi, magnis tristique habitasse volutpat cursus venenatis cras ad per. Lorem ipsum dolor sit amet consectetur adipiscing elit gravida elementum dignissim urna ornare, duis libero molestie malesuada sed viverra leo tellus ac natoque. Nascetur porta egestas lacus fringilla vivamus sociis nostra velit nam auctor mi, magnis tristique habitasse volutpat cursus venenatis cras ad per.</p>
+				<p className='text about__text'>Happy Hour Koktel Ketering je spoj strasti prema koktelima i bogatog iskustva u njihovoj pripremi. Naš tim čine dva iskusna barmena s dugogodišnjim stažem u ovoj veštini, a naša posvećenost koktelima je neupitna.</p>
+				<p className='text about__text'>S pažnjom i ljubavlju pristupamo svakom koktelu, trudeći se da budu ne samo izvanrednog ukusa, već i pravo vizuelno remek-delo. Svaki koktel koji pripremimo je mala umetnička kreacija, spremna da očara vaše goste i doprinese čaroliji vašeg događaja.</p>
+				<p className='text about__text'>Nema kompromisa kada je u pitanju kvalitet naših koktela. Posvećeni smo pružanju samo najboljeg, jer verujemo da je svaki trenutak vredan da bude ulepšan savršenim koktelom. Uz nas, vaši događaji će postati nezaboravni. Živeli! 🍹🍸</p>
 			</div>
 			<div className='about__col about__col--images'>
-				<Swiper
-					spaceBetween={50}
-					slidesPerView={1}
-     				pagination={{ clickable: true }}
-					modules={[EffectFade, Pagination]}
-					effect="fade"
-				>
-					<SwiperSlide className='about__slide'>
-						<div className='about__img-holder'>
-							<div className='about__img has-cover' style={{ backgroundImage: `url(${bannerImageOne})`}} role='presentation'/>
-						</div>
-					</SwiperSlide>
-					<SwiperSlide className='about__slide'>
-						<div className='about__img-holder'>
-							<div className='about__img has-cover' style={{ backgroundImage: `url(${bannerImageTwo})`}} role='presentation'/>
-						</div>
-					</SwiperSlide>
-					<SwiperSlide className='about__slide'>
-						<div className='about__img-holder'>
-							<div className='about__img has-cover' style={{ backgroundImage: `url(${bannerImageThree})`}} role='presentation'/>
-						</div>
-					</SwiperSlide>
-					<SwiperSlide className='about__slide'>
-						<div className='about__img-holder'>
-							<div className='about__img has-cover' style={{ backgroundImage: `url(${bannerImageOne})`}} role='presentation'/>
-						</div>
-					</SwiperSlide>
-					<SwiperSlide className='about__slide'>
-						<div className='about__img-holder'>
-							<div className='about__img has-cover' style={{ backgroundImage: `url(${bannerImageTwo})`}} role='presentation'/>
-						</div>
-					</SwiperSlide>
-				</Swiper>
+				<Slider />
 			</div>
 		</div>
 	  </div>
