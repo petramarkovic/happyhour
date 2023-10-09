@@ -48,6 +48,14 @@ export default function Contact() {
 							<span className='sr-only'>Youtube Icon</span>
 						</a>
 					</li>
+					<li className='contact__item'>
+						<a target='_blank' aria-label='Happy Hour Ketering TikTok' title='Happy Hour Ketering TikTok' href='https://www.tiktok.com/@igormarkovic345' className='contact__link' rel="noopener noreferrer">
+							<span aria-hidden='true'>
+							<Icon icon="ic:baseline-tiktok" />
+							</span>
+							<span className='sr-only'>TikTok Icon</span>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</div>

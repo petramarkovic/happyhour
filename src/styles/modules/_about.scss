@@ -58,6 +58,9 @@
 		opacity: 1;
 		z-index: 5;
 	}
+	@media screen and (max-width: $sm) {
+		opacity: 1;
+	}
 }
 
 .about__img {

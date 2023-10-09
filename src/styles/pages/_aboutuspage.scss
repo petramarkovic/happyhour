@@ -5,6 +5,9 @@
 	.about__col {
 		@include flex-child(100%);
 	}
+	.about__col--info {
+		padding-right: 0;
+	}
 	.about__col--images {
 		display: block;
 		width: 100%;

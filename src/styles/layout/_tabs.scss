@@ -42,6 +42,8 @@
 	color: $ternary-light;
 	opacity: $opacity-sm;
 	position: relative;
+	font-size: 22px;
+	line-height: 22px;
 	&::after {
 		background-color: $ternary-light;
 		content: '';
@@ -69,7 +71,6 @@
 
 .tab__text {
 	@include flex-child(100%);
-	font-size: 16px;
 	text-align: center;
 }
 
@@ -80,4 +81,26 @@
 	@media screen and (max-width: $sm) {
 		@include flex-child(100%);
 	}
+}
+
+.tabs__info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.tabs__col {
+	flex: 1 1 calc(50% - 20px);
+	max-width: calc(50% - 20px);
+	@media screen and (max-width: $md) {
+		flex: 1 1 100%;
+		max-width: 100%;
+	}
+}
+
+.tabs__image {
+	position: relative;
+	max-width: unset;
+	pointer-events: none;
 }
