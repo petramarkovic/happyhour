@@ -1,19 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.3674fe96.css",
-    "main.js": "/static/js/main.48b87e3a.js",
+    "main.css": "/static/css/main.2bf5eead.css",
+    "main.js": "/static/js/main.7056652e.js",
     "static/js/787.aee21d8b.chunk.js": "/static/js/787.aee21d8b.chunk.js",
-    "static/media/banner-img-1.png": "/static/media/banner-img-1.41cc60a0dcfb8c066d85.png",
-    "static/media/banner-img-3.png": "/static/media/banner-img-3.2a0a0a2a780168bb4773.png",
-    "static/media/banner-img-2.png": "/static/media/banner-img-2.88da3aa952ff812915df.png",
-    "static/media/logo.png": "/static/media/logo.c9888517aa875da719b0.png",
+    "static/media/marko-image-3.jpg": "/static/media/marko-image-3.114edb1317252b4e500e.jpg",
+    "static/media/igor-markovic-image-3.jpg": "/static/media/igor-markovic-image-3.214afcf81d739caa8dde.jpg",
+    "static/media/marko-image-2.jpg": "/static/media/marko-image-2.222da2ac97c0431a39a8.jpg",
+    "static/media/marko-image.jpg": "/static/media/marko-image.03b79a2aa348687448dd.jpg",
+    "static/media/cocktails-image-4.jpg": "/static/media/cocktails-image-4.2574a181c803ed61f464.jpg",
+    "static/media/igor-markovic-image.jpg": "/static/media/igor-markovic-image.1868b152660316ea0104.jpg",
+    "static/media/garnish-image.jpg": "/static/media/garnish-image.0061c25c8982e48ec702.jpg",
+    "static/media/igor-markovic-image-2.jpg": "/static/media/igor-markovic-image-2.d0a142570e4655b0a8a0.jpg",
+    "static/media/cocktail-image-3.jpg": "/static/media/cocktail-image-3.4f7fd7c92a5e68a8911e.jpg",
+    "static/media/logo.png": "/static/media/logo.98bd131fc253bc7c09f8.png",
+    "static/media/bottles-image-banner.jpg": "/static/media/bottles-image-banner.ad1e967fbf2304d35c6f.jpg",
+    "static/media/cocktail-image-2.jpg": "/static/media/cocktail-image-2.e749fa2e414d35decff4.jpg",
+    "static/media/cocktail-image-4.jpg": "/static/media/cocktail-image-4.4df5bbbbb36f188626d5.jpg",
+    "static/media/cocktail-image-banner.jpg": "/static/media/cocktail-image-banner.bb6e62a8fc5abfd4e2ef.jpg",
+    "static/media/cocktail-image-1.jpg": "/static/media/cocktail-image-1.2e4ce0cc730484858341.jpg",
     "index.html": "/index.html",
-    "main.3674fe96.css.map": "/static/css/main.3674fe96.css.map",
-    "main.48b87e3a.js.map": "/static/js/main.48b87e3a.js.map",
+    "main.2bf5eead.css.map": "/static/css/main.2bf5eead.css.map",
+    "main.7056652e.js.map": "/static/js/main.7056652e.js.map",
     "787.aee21d8b.chunk.js.map": "/static/js/787.aee21d8b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3674fe96.css",
-    "static/js/main.48b87e3a.js"
+    "static/css/main.2bf5eead.css",
+    "static/js/main.7056652e.js"
   ]
 }

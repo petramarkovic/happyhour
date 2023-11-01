@@ -13,6 +13,7 @@ export default function Contact() {
 							<Icon icon="fluent:mail-12-filled" className='contact__icon'/>
 						</span>
 						happyhourketering@gmail.com
+						<span className="sr-only">Email happyhourketering@gmail.com</span>
 					</a>
 					, da nas pozovete direktno na broj
 					<a aria-label='Happy Hour Ketering Tel' title='Happy Hour Ketering Tel' className='contact__link' href='tel:381605260594'>
@@ -20,12 +21,14 @@ export default function Contact() {
 							<Icon icon="ph:phone-fill" className='contact__icon'/>
 						</span>
 						+381605260594
+						<span className="sr-only">Broj telefona +381605260594</span>
 					</a>/
 					<a aria-label='Happy Hour Ketering Tel' title='Happy Hour Ketering Tel' className='contact__link' href='tel:381628244659'>
 						<span aria-hidden='true'>
 							<Icon icon="ph:phone-fill" className='contact__icon'/>
 						</span>
 						+381628244659
+						<span className="sr-only">Broj telefona +381628244659</span>
 					</a>
 				</p>
 				<p className='text contact__text'>

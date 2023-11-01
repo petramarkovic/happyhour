@@ -1,6 +1,6 @@
 import React from 'react';
 import { Icon } from '@iconify/react';
-import profileImage from '../../assets/images/testimonials-img.png';
+// import profileImage from '../../assets/images/testimonials-img.png';
 
 export default function Testimonials() {
   return (
@@ -24,7 +24,7 @@ export default function Testimonials() {
 							</span>
 						</span>
 						<div className='testimonials__img-wrap'>
-							<img className='testimonials__img' src={profileImage} alt='Profile'/>
+							{/* <img className='testimonials__img' src={profileImage} alt='Profile'/> */}
 						</div>
 					</li>
 					<li className='testimonials__item'>

@@ -3,7 +3,7 @@ import Button from './Button';
 import TabItem from './TabItem';
 import Image from './Image';
 
-import bannerImageOne from '../../assets/images/banner-img-1.png';
+import tabsImage from '../../assets/images/cocktail-image-3.jpg';
 
 
 export default function Tabs() {
@@ -54,12 +54,12 @@ export default function Tabs() {
 				</div>
 				<div className="tabs__info">
 					<div className="tabs__col">
-						<p className='text text--sm'>U skladu s našim pristupom prilagodljivosti i fleksibilnosti, svaka ponuda koktel keteringa pruža vam mogućnost da odaberete kako želite da vaš događaj izgleda. Vaša želja je naša zapovijed, i mi smo ovdje da vašu proslavu učinimo upravo onakvom kakvom je zamislite.</p>
-						<p className='text text--sm'>Imate li želju da sami organizirate određene aspekte događaja ili želite da prepustite sve nama, mi smo spremni ispuniti vaše potrebe. Vaša odluka o količini radnih sati, broju ljudi na vašem eventu, izboru koktela i broju barmena direktno utječe na ukupnu cijenu koktel keteringa. Bez obzira na vaš izbor, naš tim će se pobrinuti da svaki detalj bude pažljivo planiran i izveden tako da vaša proslava bude nezaboravna.</p>
-						<p className='text text--sm'>U konačnici, naš cilj je pružiti vam potpuno personaliziranu uslugu koja odražava vaše želje i potrebe. Slobodno nas kontaktirajte kako bismo razgovarali o vašim željama i pružili vam najbolju ponudu koja će vas oduševiti. Vaša sreća i zadovoljstvo su nam na prvom mjestu.</p>
+						<p className='text text--sm'>U skladu s našim pristupom prilagodljivosti i fleksibilnosti, svaka ponuda koktel keteringa pruža vam mogućnost da odaberete kako želite da vaš događaj izgleda. Vaša želja je naša zapoved, i mi smo ovde da vašu proslavu učinimo upravo onakvom kakvom je zamislite.</p>
+						<p className='text text--sm'>Imate li želju da sami organizujete određene aspekte događaja ili želite da prepustite sve nama, mi smo spremni ispuniti vaše potrebe. Vaša odluka o količini radnih sati, broju ljudi na vašem eventu, izboru koktela i broju barmena direktno utiče na ukupnu cenu koktel keteringa. Bez obzira na vaš izbor, naš tim će se pobrinuti da svaki detalj bude pažljivo planiran i izveden tako da vaša proslava bude nezaboravna.</p>
+						<p className='text text--sm'>U konačnici, naš cilj je pružiti vam potpuno personaliziranu uslugu koja odražava vaše želje i potrebe. Slobodno nas kontaktirajte kako bismo razgovarali o vašim željama i pružili vam najbolju ponudu koja će vas oduševiti. Vaša sreća i zadovoljstvo su nam na prvom mestu.</p>
 					</div>
 					<div className="tabs__col">
-						<Image className='tabs__image' image={bannerImageOne}/>
+						<Image className='tabs__image' image={tabsImage}/>
 					</div>
 				</div>
 			</div>

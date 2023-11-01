@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import bannerImageOne from '../../assets/images/banner-img-1.png';
-import bannerImageTwo from '../../assets/images/banner-img-2.png';
-import bannerImageThree from '../../assets/images/banner-img-3.png';
+import bannerImageOne from '../../assets/images/igor-markovic-image.jpg';
+import bannerImageTwo from '../../assets/images/cocktail-image-1.jpg';
+import bannerImageThree from '../../assets/images/garnish-image.jpg';
+import bannerImageFour from '../../assets/images/marko-image.jpg';
+import bannerImageFive from '../../assets/images/cocktail-image-2.jpg';
 
 export default function About() {
   return (
@@ -25,10 +27,10 @@ export default function About() {
 					<div className='about__img has-cover' style={{ backgroundImage: `url(${bannerImageThree})`}} role='presentation'/>
 				</div>
 				<div className='about__img-holder'>
-					<div className='about__img has-cover' style={{ backgroundImage: `url(${bannerImageOne})`}} role='presentation'/>
+					<div className='about__img has-cover' style={{ backgroundImage: `url(${bannerImageFour})`}} role='presentation'/>
 				</div>
 				<div className='about__img-holder'>
-					<div className='about__img has-cover' style={{ backgroundImage: `url(${bannerImageTwo})`}} role='presentation'/>
+					<div className='about__img has-cover' style={{ backgroundImage: `url(${bannerImageFive})`}} role='presentation'/>
 				</div>
 			</div>
 			<Link to="/about" aria-label="Pogledaj galeriju" title="Pogledaj galeriju" className="btn btn--primary about__btn">

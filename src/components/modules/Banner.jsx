@@ -2,8 +2,8 @@ import React from 'react';
 // import Button from '../UI/Button';
 import Image from '../UI/Image';
 import { Link } from 'react-router-dom';
-import bannerImageOne from '../../assets/images/banner-img-1.png';
-import bannerImageTwo from '../../assets/images/banner-img-2.png';
+import bannerImageOne from '../../assets/images/cocktail-image-banner.jpg';
+import bannerImageTwo from '../../assets/images/bottles-image-banner.jpg';
 
 export default function Banner() {
   return (

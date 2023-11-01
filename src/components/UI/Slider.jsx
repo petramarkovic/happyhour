@@ -7,23 +7,38 @@ import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 import SliderItem from './SliderItem';
 
-import bannerImageOne from '../../assets/images/banner-img-1.png';
-import bannerImageTwo from '../../assets/images/banner-img-2.png';
-import bannerImageThree from '../../assets/images/banner-img-3.png';
+import sliderImageOne from '../../assets/images/cocktail-image-4.jpg';
+import sliderImageTwo from '../../assets/images/marko-image-2.jpg';
+import sliderImageThree from '../../assets/images/igor-markovic-image-2.jpg';
+import sliderImageFour from '../../assets/images/marko-image-3.jpg';
+import sliderImageFive from '../../assets/images/cocktails-image-4.jpg';
+import sliderImageSix from '../../assets/images/igor-markovic-image-3.jpg';
 
 export default function Slider() {
 	const slides = [
 		{
 			id: 0,
-			image: bannerImageOne
+			image: sliderImageOne
 		},
 		{
 			id: 1,
-			image: bannerImageTwo
+			image: sliderImageTwo
 		},
 		{
 			id: 2,
-			image: bannerImageThree
+			image: sliderImageThree
+		},
+		{
+			id: 3,
+			image: sliderImageFour
+		},
+		{
+			id: 4,
+			image: sliderImageFive
+		},
+		{
+			id: 5,
+			image: sliderImageSix
 		}
 	]
   return (
