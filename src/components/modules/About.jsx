@@ -13,8 +13,8 @@ export default function About() {
 		<div className='about__content'>
 			<div className='about__col about__col--info'>
 				<h2 className='h2 about__title'>O nama</h2>
-				<p className='text about__text'>Happy Hour Koktel Ketering je spoj strasti prema koktelima i bogatog iskustva u njihovoj pripremi. Naš tim čine dva iskusna barmena s dugogodišnjim stažem u ovoj veštini, spremna da vašem događaju donesu pravi šarm.</p>
-				<p className='text about__text'>Svojom kreativnošću i raznovrsnom paletom koktela, obezbeđujemo nezaboravan doživljaj ukusa koji će obogatiti svaki važan trenutak. Bez obzira na vrstu događaja, Happy Hour Koktel Ketering pruža elegantnu uslugu, brižljivo odabrane sastojke i koktele pripremljene s profesionalizmom, koji će oduševiti vaše goste. Učinite vaš događaj posebnim uz nas i doživite pravu umetnost koktela. Živeli! 🍹🍸</p>
+				<p className='text about__text'>Happy Hour koktel ketering je spoj strasti prema koktelima i bogatog iskustva u njihovoj pripremi. Naš tim čine dva iskusna barmena s dugogodišnjim stažem u ovoj veštini, spremna da vašem događaju donesu pravi šarm.</p>
+				<p className='text about__text'>Svojom kreativnošću i raznovrsnom paletom koktela, obezbeđujemo nezaboravan doživljaj ukusa koji će obogatiti svaki važan trenutak. Bez obzira na vrstu događaja, Happy Hour koktel ketering pruža elegantnu uslugu, brižljivo odabrane sastojke i koktele pripremljene s profesionalizmom, koji će oduševiti vaše goste. Učinite vaš događaj posebnim uz nas i doživite pravu umetnost koktela. Živeli! 🍹🍸</p>
 			</div>
 			<div className='about__col about__col--images'>
 			<div className='about__img-holder'>

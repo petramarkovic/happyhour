@@ -54,6 +54,7 @@ a, button {
 	right: 20px;
 	bottom: 20px;
 	padding: 16px;
+	z-index: 5;
 	@include hover {
 		background-color: $ternary-light;
 		color: $primary;

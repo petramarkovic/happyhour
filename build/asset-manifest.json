@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2bf5eead.css",
-    "main.js": "/static/js/main.7056652e.js",
+    "main.css": "/static/css/main.38e21c94.css",
+    "main.js": "/static/js/main.648c2533.js",
     "static/js/787.aee21d8b.chunk.js": "/static/js/787.aee21d8b.chunk.js",
     "static/media/marko-image-3.jpg": "/static/media/marko-image-3.114edb1317252b4e500e.jpg",
     "static/media/igor-markovic-image-3.jpg": "/static/media/igor-markovic-image-3.214afcf81d739caa8dde.jpg",
@@ -13,18 +13,17 @@
     "static/media/igor-markovic-image-2.jpg": "/static/media/igor-markovic-image-2.d0a142570e4655b0a8a0.jpg",
     "static/media/cocktail-image-3.jpg": "/static/media/cocktail-image-3.4f7fd7c92a5e68a8911e.jpg",
     "static/media/logo.png": "/static/media/logo.98bd131fc253bc7c09f8.png",
-    "static/media/bottles-image-banner.jpg": "/static/media/bottles-image-banner.ad1e967fbf2304d35c6f.jpg",
     "static/media/cocktail-image-2.jpg": "/static/media/cocktail-image-2.e749fa2e414d35decff4.jpg",
     "static/media/cocktail-image-4.jpg": "/static/media/cocktail-image-4.4df5bbbbb36f188626d5.jpg",
     "static/media/cocktail-image-banner.jpg": "/static/media/cocktail-image-banner.bb6e62a8fc5abfd4e2ef.jpg",
     "static/media/cocktail-image-1.jpg": "/static/media/cocktail-image-1.2e4ce0cc730484858341.jpg",
     "index.html": "/index.html",
-    "main.2bf5eead.css.map": "/static/css/main.2bf5eead.css.map",
-    "main.7056652e.js.map": "/static/js/main.7056652e.js.map",
+    "main.38e21c94.css.map": "/static/css/main.38e21c94.css.map",
+    "main.648c2533.js.map": "/static/js/main.648c2533.js.map",
     "787.aee21d8b.chunk.js.map": "/static/js/787.aee21d8b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bf5eead.css",
-    "static/js/main.7056652e.js"
+    "static/css/main.38e21c94.css",
+    "static/js/main.648c2533.js"
   ]
 }

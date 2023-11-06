@@ -26,7 +26,7 @@ export default function Tabs() {
 		},
 		{
 			title: "aperitivo",
-			content: <TabItem>Naša Aperitivo ponuda pruža jednostavnost i eleganciju. U okviru ove opcije, nudimo izbor od 2-3 osvježavajuća koktela baziranih na pjenušcu, što je idealno za opuštenije i elegantnije okupljanje. 
+			content: <TabItem>Naša Aperitivo ponuda pruža jednostavnost i eleganciju. U okviru ove opcije, nudimo izbor od 2-3 osvežavajuća koktela baziranih na penušavom vinu, što je idealno za opuštenije i elegantnije okupljanje. 
 
 			Osim koktela, organizacija događaja je pojednostavljena kako biste se mogli potpuno opustiti. Naša usluga će osigurati da vaša proslava bude ugodna i da svaki detalj bude pažljivo planiran. Uživajte u laganim koktelima i ugodnom ambijentu dok se opuštate s gostima.</TabItem>
 		}
@@ -54,9 +54,7 @@ export default function Tabs() {
 				</div>
 				<div className="tabs__info">
 					<div className="tabs__col">
-						<p className='text text--sm'>U skladu s našim pristupom prilagodljivosti i fleksibilnosti, svaka ponuda koktel keteringa pruža vam mogućnost da odaberete kako želite da vaš događaj izgleda. Vaša želja je naša zapoved, i mi smo ovde da vašu proslavu učinimo upravo onakvom kakvom je zamislite.</p>
-						<p className='text text--sm'>Imate li želju da sami organizujete određene aspekte događaja ili želite da prepustite sve nama, mi smo spremni ispuniti vaše potrebe. Vaša odluka o količini radnih sati, broju ljudi na vašem eventu, izboru koktela i broju barmena direktno utiče na ukupnu cenu koktel keteringa. Bez obzira na vaš izbor, naš tim će se pobrinuti da svaki detalj bude pažljivo planiran i izveden tako da vaša proslava bude nezaboravna.</p>
-						<p className='text text--sm'>U konačnici, naš cilj je pružiti vam potpuno personaliziranu uslugu koja odražava vaše želje i potrebe. Slobodno nas kontaktirajte kako bismo razgovarali o vašim željama i pružili vam najbolju ponudu koja će vas oduševiti. Vaša sreća i zadovoljstvo su nam na prvom mestu.</p>
+						<p className='text text--sm'>Imate li želju da sami organizujete određene aspekte događaja ili želite da prepustite sve nama, mi smo spremni ispuniti vaše potrebe. Vaša odluka o količini radnih sati, broju ljudi na vašem eventu, izboru koktela i broju barmena direktno utiče na ukupnu cenu koktel keteringa. Bez obzira na vaš izbor, naš tim će se pobrinuti da svaki detalj bude pažljivo planiran i izveden tako da vaša proslava bude nezaboravna. Slobodno nas kontaktirajte kako bismo razgovarali o vašim željama i pružili vam najbolju ponudu koja će vas oduševiti.</p>
 					</div>
 					<div className="tabs__col">
 						<Image className='tabs__image' image={tabsImage}/>
