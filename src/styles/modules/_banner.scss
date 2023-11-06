@@ -2,6 +2,7 @@
 	width: 100%;
 	position: relative;
 	overflow: hidden;
+	padding: 0;
 }
 
 .banner__holder {
@@ -16,7 +17,7 @@
 	margin: 0 auto;
 	padding: 280px 0;
 	@media screen and (max-width: $sm) {
-		padding: 20px 0;
+		padding: 110px 10px;
 	}
 }
 
