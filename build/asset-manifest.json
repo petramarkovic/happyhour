@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.eff84e87.css",
-    "main.js": "/static/js/main.648c2533.js",
+    "main.css": "/static/css/main.4a5413c7.css",
+    "main.js": "/static/js/main.10f07b14.js",
     "static/js/787.aee21d8b.chunk.js": "/static/js/787.aee21d8b.chunk.js",
     "static/media/marko-image-3.jpg": "/static/media/marko-image-3.114edb1317252b4e500e.jpg",
     "static/media/igor-markovic-image-3.jpg": "/static/media/igor-markovic-image-3.214afcf81d739caa8dde.jpg",
@@ -18,12 +18,12 @@
     "static/media/cocktail-image-banner.jpg": "/static/media/cocktail-image-banner.bb6e62a8fc5abfd4e2ef.jpg",
     "static/media/cocktail-image-1.jpg": "/static/media/cocktail-image-1.2e4ce0cc730484858341.jpg",
     "index.html": "/index.html",
-    "main.eff84e87.css.map": "/static/css/main.eff84e87.css.map",
-    "main.648c2533.js.map": "/static/js/main.648c2533.js.map",
+    "main.4a5413c7.css.map": "/static/css/main.4a5413c7.css.map",
+    "main.10f07b14.js.map": "/static/js/main.10f07b14.js.map",
     "787.aee21d8b.chunk.js.map": "/static/js/787.aee21d8b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eff84e87.css",
-    "static/js/main.648c2533.js"
+    "static/css/main.4a5413c7.css",
+    "static/js/main.10f07b14.js"
   ]
 }

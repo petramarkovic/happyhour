@@ -4,6 +4,7 @@ import Homepage from './components/pages/Homepage';
 import Offerspage from './components/pages/Offerspage';
 import Aboutpage from './components/pages/Aboutpage';
 import Contactpage from './components/pages/Contactpage';
+import ScrollToTop from './components/UI/ScrollToTop';
 
 function App() {
 
@@ -26,8 +27,9 @@ function App() {
 
 	return (
 		<Router>
+			<ScrollToTop />
 			<Routes>
-				<Route path="/" element={<Homepage />} />
+				<Route path="/" exact element={<Homepage />} />
 				<Route path="/offers" element={<Offerspage />} />
 				<Route path="/about" element={<Aboutpage />} />
 				<Route path="/contact" element={<Contactpage />} />

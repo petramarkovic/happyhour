@@ -25,10 +25,6 @@
 		margin-bottom: 0;
 		padding-bottom: 50%;
 		opacity: 1;
-		@include hover {
-			transform: none;
-			z-index: unset;
-		}
 	}
 	.about__slide {
 		border-radius: $radius-sm;
